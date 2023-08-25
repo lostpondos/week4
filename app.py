@@ -17,8 +17,6 @@ db = client[DB_NAME]
 
 app = Flask(__name__)
 
-
-
 @app.route('/')
 def home():
     return render_template('index.html')
